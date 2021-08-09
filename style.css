@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;600;800&display=swap');
+@media screen and (max-width: 600px) {
+    div.top-bar {
+      justify-content: center;
+    }
+  }
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.first-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/donda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-bar{
+    background-color:rgba(26, 112, 134, 0.404);
+    height:120px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.middle{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    background-color:rgba(26, 112, 134, 0.404);
+}
+.time-container{
+    display:flex;
+    justify-content:space-evenly;
+    margin:50px;
+    width:50%;
+    height:200px;
+
+}
+.seperate-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    justify-content:center;
+}
+.number h2{
+    font-size:100px;
+    font-family: 'Open Sans';
+    font-weight:800;
+    color:white;
+}
+.bottomlabel h4{
+    font-size:30px;
+    font-family: 'Open Sans';
+    font-weight:600;
+    color:white;
+}
+.donda-text h1{
+    display: inline;
+    font-family: 'Helvetica';
+    font-weight:800;
+    font-size: 90px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.donda-text{
+   display: flex;
+}
+.apple-logo{
+    height:100%;
+    /* padding:10px; */
+}
+.apple-music{
+    /* background-color:rgba(13, 160, 228, 0.507); */
+    border-radius: 20px;
+    margin-left: 20px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    padding:10px;
+}
+.apple-music a{
+    font-family:'Helvetica',sans-serif;
+    letter-spacing:1px;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+    margin:0 15px;
+}
+.apple-music:hover{
+    transform:scale(1.05,1.05);
+}
+a{
+    text-decoration:none;
+}
+.second-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background-color:rgb(28, 37, 37);
+    /* box-shadow: 0px -30px 5px rgb(0, 0, 0); */
+}
+.latest-news{
+    /* background-color:rgb(70, 87, 84); */
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width:50%;
+    margin:20px;
+    border-radius: 12px;
+    height:95%;
+}
+.header-text{
+    
+    width:auto;
+    margin:20px;
+}
+.header-text h1{
+    color:white;
+    font-size:2.5rem;
+    font-family: 'Open Sans';
+    font-weight:600;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.article-container{
+    width:90%;
+    height:auto;
+    overflow:scroll;
+}
+
+.article{
+    margin:20px;
+    height:160px;
+    background-color:rgb(58, 58, 58);
+    border-radius:5px;
+    display:flex;
+}
+.article-main{
+    padding:10px;
+    display:flex;
+    width:100%;
+}
+.article-img{
+    margin-left:10px;
+    height:130px;
+    border-radius:5px;
+}
+.article-text{
+    width:100%;
+    color:white;
+    margin-left:20px;
+    overflow:hidden;
+    
+}
+.article-text h1{
+    color:rgb(98, 134, 236);
+    font-size:1.2rem;
+    font-family:'Open Sans';
+    font-weight:400;
+    
+}
+.article-text p{
+    font-size:1rem;
+    font-family:'Open Sans';
+    font-weight:300;
+    
+}

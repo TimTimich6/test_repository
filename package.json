@@ -1,0 +1,15 @@
+{
+  "name": "hasdondadropped",
+  "version": "1.0.0",
+  "description": "overdue donda timer",
+  "main": "script.js",
+
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Timofey Obraztsov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
