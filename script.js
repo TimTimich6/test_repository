@@ -18,7 +18,7 @@ setInterval(() => {
     second.innerText =seconds;
 }, 1000);
 
-async function getNews(){
+async function getNews(){ 
     const response = await fetch('https://gnews.io/api/v4/search?q=Donda&token=86fa995755b34940f55cb351288e8fc6&lang=en');
     const respobject = await response.json();
     console.log(respobject);
